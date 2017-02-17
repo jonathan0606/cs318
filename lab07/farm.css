@@ -1,0 +1,22 @@
+body {
+  background-image: url(farm.jpg);
+    background-repeat: no-repeat;
+}
+
+.background{
+    margin-top: 533px;
+    background-color: #E8CA46;
+    height:200px;
+}
+p{
+    margin-left: 1000px;
+    color: darkolivegreen
+}
+.cowpic{
+    margin-top: -190px;
+    margin-left: 10px;
+}
+h1{
+    margin-left: 1080px;
+    color: crimson;
+}

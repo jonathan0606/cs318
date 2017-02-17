@@ -1,0 +1,35 @@
+.card{width:200px;
+    display:inlinblock;
+    border-style:none;
+    border-color:none;
+    border-width:none;
+    border-radius:15px;
+    vertical-align:top;
+    margin:auto;
+    margin-top:0px;
+}
+
+.favorite{border-style: dotted;}
+
+
+.card img{width:100%;
+margin:auto;}
+
+.name{font-weight:bold;
+    text-align: center;
+    font-family:sans-serif;}
+
+p{font-family:sans-serif;
+margin:auto;}
+
+#card1{background-color:#C29EFF;}
+
+#card2{background-color:#81FFF7;}
+
+#card3{background-color:#A6E823;}
+
+#card4{background-color:#FFF483;}
+
+#card5{background-color:#E86A0C;}
+
+#card6{background-color:#3E91FF;}
