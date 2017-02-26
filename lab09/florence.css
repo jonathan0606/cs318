@@ -1,0 +1,48 @@
+body{
+    background-color:cornsilk  
+}
+
+.box{
+     box-sizing: border-box;
+    background-color: white;
+    margin:100px;
+    margin-top: auto;
+    box-shadow: 5px 5px 10px grey;
+    
+}
+
+header{
+    box-sizing: border-box;
+    background-color:coral;
+    color:white;
+    height:50px;
+    margin-bottom: 20px;
+}
+nav{
+    margin-bottom: 20px;
+}
+
+img{
+    
+    width:100%;
+    height: auto;
+    margin-bottom: 100px;
+    
+    
+}
+
+footer{
+    
+    margin-top: -80px;
+    
+}
+
+p{
+    
+    font-style: italic;
+    font-size: 12px;
+    text-align: right
+        
+    
+    
+}

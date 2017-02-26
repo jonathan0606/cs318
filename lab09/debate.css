@@ -1,0 +1,76 @@
+body{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
+
+.heading{
+    text-align: center;
+    background: linear-gradient(to right,#00F3FF,#FFC388);
+    padding: 1px;
+    margin: 10px;
+    border-style: radius;
+    margin-top: -10px;
+    
+    
+    
+    
+    
+}
+.blurb{
+    box-sizing: border-box;
+    display:inline-block;
+    width: 90%;
+    height: 30%;
+    margin:10px;
+    border-color: black;
+    border-width: 1px;
+    box-shadow: 8px 8px 20px grey;
+    font-family: 'Exo', sans-serif;
+    border-style: solid;
+    min-height: 202px;
+    min-width: 400px;
+    background-repeat: no-repeat;
+    background-size: auto 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    
+    
+    
+    
+    
+}
+
+.left{
+    padding-left: 260px;
+    padding-right: 120px;
+    background-image: url(http://vignette4.wikia.nocookie.net/tomandjerry/images/7/7f/Tom_Cat.jpg/revision/latest?cb=20130721002946);
+    
+    background-color: #00F3FF;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    
+    
+    
+}
+
+.right{
+    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/45/a5/91/45a59167bc32d5c43618daec7e4f98ee.jpg);
+    padding-right: 260px;
+    padding-left: 120px;
+    background-position: right;
+    background-color: #FFC388;
+    margin-left: 10%;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+}
+
+.more{
+    color:#ff0c00;
+}
+
+.homework{
+    color: #88c4ff;
+}

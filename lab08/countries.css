@@ -12,8 +12,9 @@ body{
     border-color: #D9FFCA;
     border-width: 4px;
     box-shadow: 8px 8px 20px grey;
-     background-position: center, top right;
-    background-size:  auto 10px, auto 300px;
+     background-position: top right, center;
+    background-size: auto 60px, auto 300px;
+    background-repeat: no-repeat;
     
 }
 
@@ -27,19 +28,27 @@ body{
 
 #uk{
     background-image:
+        
+     url(http://kids.nationalgeographic.com/content/kids/en_US/explore/countries/united-kingdom/_jcr_content/content/textimage/image.img.gif/1396531774599.gif),
+        
     url("http://kids.nationalgeographic.com/content/kids/en_US/explore/countries/united-kingdom/_jcr_content/content/textimage_0/image.img.jpg/1470934883240.jpg");
     
 }
 
 #italy{
     background-image:
-    url("http://kids.nationalgeographic.com/content/kids/en_US/explore/countries/italy/_jcr_content/content/textimage_0/image.img.jpg/1465848116011.jpg");
+  
+        
+    url(http://kids.nationalgeographic.com/content/kids/en_US/explore/countries/italy/_jcr_content/content/textimage/image.img.gif/1396531626579.gif),
+        url("http://kids.nationalgeographic.com/content/kids/en_US/explore/countries/italy/_jcr_content/content/textimage_0/image.img.jpg/1465848116011.jpg");
     
 }
 
 
 #southafrica{
     background-image:
+        url(http://kids.nationalgeographic.com/content/kids/en_US/explore/countries/south-africa/_jcr_content/content/textimage/image.img.gif/1396531769403.gif),
+        
     url("http://kids.nationalgeographic.com/content/kids/en_US/explore/countries/south-africa/_jcr_content/content/textimage_0/image.img.jpg/1465849341946.jpg");
     
 }
