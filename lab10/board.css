@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    
+    background-image: url(cork.jpg);
+    
+    
+}
+.photo{
+    position: relative;
+    margin:20px;
+    display:inline-block;
+    box-shadow: -8px 8px 20px black;
+    background-color: white;
+}
+.pic{
+    width:250px;
+    height:auto;
+    
+    padding: 10px;
+    padding-bottom: 40px;
+}
+.pin{
+    position: absolute;
+    width:60px;
+    height:auto;  
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.label {
+  font-family: Marker;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    font-size: 20pt;
+    text-align: center;
+}
+@font-face {
+  font-family: Marker;
+  src: url(AddisAbaba.ttf);
+}
+#p1 {
+    transform: rotate(0deg);
+}
+#e1 {
+    transform: rotate(5deg);
+}
+#c1 {
+    transform: rotate(-5deg);
+}

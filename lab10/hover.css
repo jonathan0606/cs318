@@ -1,0 +1,13 @@
+body{
+    
+    
+}
+
+.photo{
+    background-size: 200px auto;
+    background-repeat: no-repeat;
+    background-image: url(https://www.organicheadshots.com/images/headshot01.jpg);
+    width:200px;
+    height:200px;
+    display:inline-block;
+}
