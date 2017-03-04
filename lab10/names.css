@@ -1,0 +1,58 @@
+
+.photo {
+  
+    display: inline-block;
+    width: 200px;
+    height:200px;;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    margin:3%;
+    box-shadow: 8px 8px 20px grey;
+    position: relative;
+}
+
+.photo:hover {
+    box-shadow: 4px 8px 10px #364042;
+    top:3px;
+    left:3px;
+    
+
+}
+
+#head1{
+    
+    background-image: url("http://rs42.pbsrc.com/albums/e332/jonsimpsonaz/Scottsdale%20Phoenix%20Business%20Headshots%20Photographer/Scottsdale-Phoenix-healthcare-doctor-businessHeadshots-HeadShot-photographer78.jpg~c200");
+   
+}
+
+
+#head2{
+    
+    background-image: url("http://rs42.pbsrc.com/albums/e332/jonsimpsonaz/Scottsdale%20Phoenix%20Business%20Headshots%20Photographer/Scottsdale-Phoenix-Doctor-AuthorWriter-businessHeadshots-HeadShot-photographer80.jpg~c200");
+}
+
+
+#head3{
+    
+    background-image: url("https://solarisstudios.com/wp-content/uploads/2017/02/SOL_0862li.jpg");
+}
+
+
+#head4{
+    
+    background-image: url("http://cdn.c.photoshelter.com/img-get2/I0000NviVn_Lit48/fit=/fill=200x200/g=G0000bMwiBGfCOqM/I0000NviVn_Lit48.jpg");
+}
+
+.name{
+    position:absolute;
+    height:auto;
+    top: 115px;
+    font-size: 35pt;
+    color:yellow;
+    width: 200px;
+    text-align:center;
+    font-family: monospace;
+    
+}
