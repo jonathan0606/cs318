@@ -1,0 +1,85 @@
+body {
+    padding: 0;   
+    margin: 0;
+	background-color:#00FFD2;
+}
+
+
+header {
+    background-color:#F919FF; 
+    padding: 15px;
+	text-align: center;
+}
+nav {
+    
+    float: left;
+    background-color:#00FFD2;
+    width: 16em;
+    padding-left: 0; 
+     
+    
+}
+
+ul{
+    list-style-type: none; 
+   
+}
+li{
+	
+    font-family: 'Roboto', sans-serif;
+}
+.quote {
+    float:right;
+    width: 15em;
+    background-color: white;
+    font-size: 15pt; 
+    font-family: calibri light;
+}
+main{
+     background-color:#FFCB00;
+    position: absolute; 
+    left: 250px;
+    margin-top: auto; 
+    font-family: 'Slabo 27px', serif;
+    padding: 15px;
+}
+
+.poem{
+    white-space: pre-wrap;
+}
+h1 { 
+margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+   
+
+
+@media (max-width: 30em) {
+    
+    main {
+        position: static;
+		clear: both;
+    }
+	nav{
+		width: 100%;
+	}
+ 
+    li {
+        display: inline;
+    }
+	.quote{
+		float: none;
+		width: 100%;
+	}
+	span{
+		display: none;
+	}
+}
