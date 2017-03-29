@@ -1,0 +1,97 @@
+body{
+    background: linear-gradient(to top,orange,white);
+    background-repeat: no-repeat;
+}
+.top{
+    text-align: center;
+    background-color: #7F7D7F;
+    height: 80px;
+    
+}
+.google{
+    position: relative;
+    float:right;
+    top:0;
+    
+}
+
+.foo{
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    color:white;
+    
+}
+.uwec{
+    position:relative;
+    
+}
+
+.square1{
+    width: 16em;
+    height:11em;
+    border-style: solid;
+    
+    
+   
+    }
+.pink1{
+    background-color: pink;
+    width: 15em;
+    height:10em;
+    float:right;
+    margin:10px;
+    
+    
+}
+
+.pink2{
+    background-color: pink;
+    width: 15em;
+    height:10em;
+    float:left;
+    margin:10px;
+    
+    
+}
+
+.pink3{
+    background-color: pink;
+    width: 15em;
+    height:10em;
+    float:right;
+    margin:10px;
+    position:relative;
+    
+    
+    
+}
+
+@media (max-width: 30em) {
+    
+    pink1 {
+        position: static;
+		clear: both;
+        width:100%;
+    }
+	
+   pink2 {
+        position: static;
+		clear: both;
+       width: 100%;
+    }
+      pink3 {
+        position: static;
+		clear: both;
+          width:100%;
+    }
+      pink4 {
+        position: static;
+		clear: both;
+          width:100%;
+    }
+   
+	
+	
+}
+
