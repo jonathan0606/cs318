@@ -1,0 +1,33 @@
+div {
+background-color:lightgray; 
+width: 400px;
+font-size: 16pt; 
+font-family: sans-serif; 
+padding: 25px; 
+border-radius: 10px; 
+text-align:right; 
+}
+
+label {
+    margin-top: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 90%;
+    
+    
+}
+#submit { 
+    background-color: blue; 
+    color: white;  
+    margin-top: 30px; 
+    padding: 10px;
+    font-size: 25px; 
+    border: none;  
+    
+}
+textarea, input{
+    font-size: 16pt;  
+    
+}
