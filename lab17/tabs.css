@@ -1,0 +1,46 @@
+.tabbutton:focus {
+    
+background-color: coral; 
+    
+}
+.tabbutton{
+    display: inline-block; 
+    background-color: lightcoral; 
+    width: 200px;
+    height: 100px; 
+    border-top-left-radius: 25px; 
+    border-top-right-radius: 25px;
+    cursor: pointer; 
+    outline: none; 
+
+}
+
+#tabparent {
+    position: relative; 
+    display: inline-block; 
+}
+
+#tabview0 {
+    background-color: lightcoral; 
+    display: block; 
+    width: 610px;
+    height: 50px; 
+    
+}
+.tabview {
+    position:absolute; 
+    left: 0;
+    top: 100px;
+    right: 0;
+    background-color: coral; 
+    display: none; 
+}
+#tab1:focus ~ #tabview1 {
+ display: block; 
+}
+#tab2:focus ~ #tabview2 {
+ display: block; 
+}
+#tab3:focus ~ #tabview3 {
+ display: block; 
+}
