@@ -145,3 +145,32 @@ main{
 	float:left;
 }
 
+@media (max-width: 30em) {
+    
+    .nav{
+        position: relative;
+        width: 16em;
+        margin-top: 20px;
+        float:none;
+        height: 215px;
+        
+    }
+    
+    .nav a{
+        float: none;
+        
+    }
+    main{
+        width: 16em;
+        
+    }
+    
+    .image{
+        text-align: center;
+    }
+    
+    .text{
+        width: 16em;
+    }
+
+}

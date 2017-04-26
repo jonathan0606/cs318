@@ -116,3 +116,29 @@ main{
 	margin-left: 11%;
 	margin-top: 30px;
 }
+
+@media (max-width: 30em) {
+    
+    .nav{
+        position: relative;
+        width: 16em;
+        margin-top: 20px;
+        float:none;
+        height: 215px;
+        
+    }
+    
+    .nav a{
+        float: none;
+        
+    }
+    main{
+        width: 16em;
+        
+    }
+    
+    .image{
+        text-align: center;
+    }
+
+}
