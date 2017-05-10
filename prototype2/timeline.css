@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: 'Montserrat Regular';
+	margin-left: 70px;
+}
+
+.home2{
+	cursor: pointer;
+}
+
+ul{
+	list-style-type: none;
+	width: 200px;
+	margin-left: 0;
+    position: absolute;
+	
+}
+
+ul a {
+	color: white;
+	text-decoration: none;
+    padding: 20px 60px 20px 60px;
+}
+
+ul li{
+	
+	background-color: black;
+	margin-top: 10%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	margin-bottom: 10%;
+	color: white;
+	text-align: center;
+}
+
+
+
+.links a:hover, li:hover{
+    color: black;
+    background-color: white;
+}
