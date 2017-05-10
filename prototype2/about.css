@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.image img{
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+
+main{
+	width:700px;
+	margin-left: 11%;
+	margin-top: 30px;
+}
+
+.image img{
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+
+@media (max-width: 30em) {
+    
+    
+  
+    main{
+        width: 16em;
+    } 
+    .image{
+        text-align: center;
+		margin-top: 20px;
+    }
+	
+	
+ 
+}
+

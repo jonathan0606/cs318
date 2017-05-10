@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+main{
+	width:580px;
+	margin-left: 11%;
+	margin-top: 30px;
+}
+
+main h4{
+	margin-bottom: -10px;
+}
+
+.line {
+	width: 150px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 30em) {
+    
+    
+    main{
+        width: 16em;
+        
+    }
+
+	.bigimage img{
+		width:200px;
+	}
+    
+	.image img{
+		width:90px;
+		height:60px;
+		text-align: left;
+		
+	}
+
+}

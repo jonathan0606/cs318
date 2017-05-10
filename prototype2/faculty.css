@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+.stuff{
+	font-family: "Montserrat Regular";
+}
+.left{
+	float:right;
+}
+
+.right{
+	margin-bottom: 10%;
+}
+
+
+.image img{
+	padding-bottom: 20px;
+	padding-right: 20px;
+	text-align: left;
+}
+
+main{
+	width:700px;
+	margin-left: 11%;
+	margin-top: 30px;
+}
+
+@media (max-width: 30em) {
+    
+    
+	
+	.left, .right{
+		float:none;
+	}
+    
+    .image{
+        width: 16em;
+		text-align: center;
+    }
+	
+
+}
