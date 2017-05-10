@@ -10,7 +10,7 @@ body{
 	margin-right: auto;
 	width:1000px;
     height: 100%;
-
+    font-family: Montserrat Regular;
 }
 
     
@@ -24,7 +24,7 @@ body{
 	margin-top:-46px;
 	margin-left: 90px;
 	font-size: 15pt;
-	font-family: "Montserrat Regular";
+	font-family: Montserrat Regular;
 	z-index: 10;
 }
 
