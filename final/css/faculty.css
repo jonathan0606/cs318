@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+.stuff{
+	font-family: "Montserrat";
+	font-size: 10pt;
+	
+}
+
+b{
+	font-family: "Montserrat-bold";
+}
+.left{
+	float:right;
+}
+
+.right{
+	margin-bottom: 10%;
+}
+
+
+.image img{
+	padding-bottom: 20px;
+	padding-right: 20px;
+	text-align: left;
+}
+
+main{
+	width:70%;
+	margin-left: 11%;
+	margin-top: 30px;
+}
+b{
+    font-family: "Montserrat";
+}
+
+h2{
+	font-family: "Montserrat";
+    font-weight: bold;
+	font-size: 15pt;
+}
+
+@media (max-width: 1000px) {
+	.left, .right{
+		float:none;
+	}
+	
+    main{
+        width: 100%;
+        
+    }
+	.image{
+		
+		width:100%;
+	}
+	
+}
+
+@media (max-width: 480px) {
+    
+    
+	
+	.left, .right{
+		float:none;
+	}
+    
+    .image{
+        width: 16em;
+		text-align: center;
+    }
+    
+    main{
+        width:78%;
+    }
+	
+
+}

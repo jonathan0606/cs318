@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+    background-color: lightgrey;
+}
+
+body{
+    background-color: white;
+
+}
+
+.home2{
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+ul{
+	list-style-type: none;
+	width: 200px;
+	margin-left:auto;
+	margin-right: auto;
+    position:relative;
+	
+}
+
+ul a {
+	color: white;
+	text-decoration: none;
+    padding: 10px 50px 10px 50px;
+}
+
+ul li{
+	height:10%;
+	background-color: black;
+	margin-top: 10%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	margin-bottom: 10%;
+	color: white;
+	text-align: center;
+	font-family: "Montserrat";
+	font-size: 11pt;
+}
+
+
+
+.links a:hover, li:hover{
+    color: black;
+    background-color: white;
+}
